@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Pet</title>
+    <link rel="icon" type="image/x-icon" href="Images/gallery2.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+<style>
+
+html{
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color:white;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 100px;
+}
+
+#logo{ 
+	position:absolute; 
+	top:0; 
+	left:0;
+
+} 
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #27ae60;
+  bottom: 40px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+  
+}
+
+.background{
+      
+      /* The background image will change whenever
+      we load the page */  
+      background: grey;
+        
+      /* This will make the background that have
+      been added will be darken */  
+      background-blend-mode:darken;
+      background-size:cover;
+  }
+  
+.text-footer {  
+    text-align: center;  
+    padding: 30px 0;  
+    font-family: 'Times New Roman', Times, serif;  
+    display: flex;  
+    justify-content: center;  
+}
+
+
+h1 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:35%;
+  max-height:35%;
+}
+
+p.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px
+}
+
+
+
+
+
+</style>
+</head>
+
+<body>
+  <br><ul>
+    <li><a href="index.html"><b>H O M E</b></a></li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn"><b>P A G E </b></a>
+      <div class="dropdown-content">
+        <a href="descriptions.html">Descriptions</a>
+        <a href="story.html">Story</a>
+        <a href="photo.html">Photo</a>
+        <a href="video.html">Video</a>
+        <a href="others.html">Others</a>
+      </div>
+      <li><a href="contact.html"><b>C O N T A C T</b></a></li>
+      <li><a href="aboutus.html"><b>A B O U T &nbsp; U S</b></a></li>
+    </li>
+  </ul>
+
+<hr>
+
+
+
+<div id="logo"> 
+	<img src="images/gallery1.png" style="width:20%;"> 
+</div> 
+
+<a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i></a>
+
+<br>
+<h1>Story about Molly</h1>
+
+<br>
+<h2>Memorable story</h2>
+
+<br><br>
+<img src="images/gallery11.jpg" class="center" >
+
+<br>
+<p class="blocktext" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> 
+        The first day that i met with <i>Molly</i> was half year ago.
+        I adopted <i>Molly</i> because its has a blue appearance. I personally like blue very much.
+        <br>
+        I remember once, before I helped <i>Molly</i> change the water in the fish tank, I first removed it to a container, then changed the water and added the anti-chlorine solution into it. 
+        Generally, I will move <i>Molly</i> back to the fish tank in more than ten minutes. But I forgot it that time. 
+        It took an hour before I remembered that I haven't moved him back to the fish tank. I think <i>Molly</i> would say: "Why didn't my owner move me back to the fish tank? Did he don't want me anymore: (". 
+        I haven't forgotten it since that time.
+    
+
+
+
+    </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br>
+<br><br><br><br><br>
+<footer class="background">
+  <p class="text-footer">
+    Copyright © 2021 Molly. All rights are reserved
+  </p>
+
+</footer>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
